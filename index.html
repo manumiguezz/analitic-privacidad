@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Analitic</title>
+<meta name="description" content="Política de privacidad de la app Analitic: qué datos se recopilan, para qué, con quién se comparten, retención, derechos y cómo eliminar la cuenta.">
+<style>
+  :root { color-scheme: light dark; --fg:#111; --muted:#555; --bg:#fff; --card:#f6f7f8; --border:#e3e5e8; --accent:#5b6b00; }
+  @media (prefers-color-scheme: dark){ :root{ --fg:#e9eaec; --muted:#a6abb2; --bg:#0e0f11; --card:#17191c; --border:#2a2d31; --accent:#d8e600; } }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:40px 16px 80px}
+  h1{font-size:1.8rem;line-height:1.2;margin:0 0 .25rem}
+  h2{font-size:1.2rem;margin:2.2rem 0 .6rem;padding-top:.4rem}
+  .meta{color:var(--muted);margin:0 0 1.5rem}
+  a{color:var(--accent)}
+  table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
+  th,td{text-align:left;vertical-align:top;padding:.5rem .6rem;border:1px solid var(--border)}
+  th{background:var(--card)}
+  .box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin:1rem 0}
+  footer{color:var(--muted);font-size:.9rem;margin-top:3rem;border-top:1px solid var(--border);padding-top:1rem}
+  code{background:var(--card);padding:.1rem .35rem;border-radius:5px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidad — Analitic</h1>
+  <p class="meta">Última actualización: 16 de octubre de 2026</p>
+
+  <p>Esta Política describe qué datos personales trata la aplicación <strong>Analitic</strong> (la "App"), con qué fines, con quién se comparten, cuánto se conservan y qué derechos tenés sobre ellos. El responsable del tratamiento es <strong>Analitic</strong> (el gimnasio). Jurisdicción: <strong>Argentina</strong> (Ley 25.326 de Protección de Datos Personales).</p>
+
+  <h2>1. Qué datos recopilamos</h2>
+  <p>La App trata únicamente los datos necesarios para que un alumno use el servicio del gimnasio. No usamos herramientas de analítica, publicidad ni rastreo de terceros.</p>
+  <table>
+    <tr><th>Categoría</th><th>Datos</th><th>Origen</th></tr>
+    <tr><td><strong>Identidad y cuenta</strong></td><td>Email, contraseña (almacenada de forma cifrada por el proveedor de autenticación), nombre y apellido</td><td>Los ingresás vos al registrarte o iniciar sesión (email/contraseña o Sign in with Apple).</td></tr>
+    <tr><td><strong>Datos del alumno</strong></td><td>DNI, teléfono de contacto</td><td>Los ingresás vos en "Editar datos" (o los carga el gimnasio).</td></tr>
+    <tr><td><strong>Entrenamiento y actividad</strong></td><td>Rutina asignada, evolución/progreso, turnos reservados, estado de cuota y beneficios</td><td>Se generan por tu uso del servicio del gimnasio.</td></tr>
+    <tr><td><strong>Notificaciones push</strong></td><td>Token de push (Expo), plataforma (iOS/Android) e identificador de instalación/dispositivo</td><td>Se genera en tu dispositivo si aceptás recibir notificaciones.</td></tr>
+  </table>
+  <p><strong>Sign in with Apple:</strong> si iniciás sesión con Apple, Apple nos comparte tu identificador y, si lo permitís, tu nombre y un email (que puede ser un email de relay <code>@privaterelay.appleid.com</code> si elegís ocultar el tuyo). No recibimos tu contraseña de Apple.</p>
+
+  <h2>2. Para qué usamos los datos</h2>
+  <ul>
+    <li><strong>Prestar el servicio:</strong> autenticarte, mostrar tu rutina, evolución, turnos, cuota y beneficios, y permitirte reservar turnos.</li>
+    <li><strong>Identificarte dentro del gimnasio:</strong> el DNI vincula tu cuenta con tu ficha de alumno.</li>
+    <li><strong>Enviarte notificaciones</strong> sobre turnos, cuota y beneficios, solo si diste permiso.</li>
+    <li><strong>Soporte y seguridad:</strong> mantener la cuenta, prevenir accesos indebidos y cumplir obligaciones legales.</li>
+  </ul>
+  <p>No vendemos tus datos ni los usamos para publicidad.</p>
+
+  <h2>3. Con quién se comparten</h2>
+  <p>Compartimos datos solo con proveedores que nos ayudan a operar la App, como encargados del tratamiento:</p>
+  <ul>
+    <li><strong>Supabase</strong> — autenticación, base de datos y funciones de servidor.</li>
+    <li><strong>Servicio de notificaciones push:</strong> Expo Push, y a través de él Apple Push Notification service (APNs) en iOS y Firebase Cloud Messaging (FCM) en Android, únicamente para entregar las notificaciones a tu dispositivo.</li>
+    <li><strong>Apple</strong> — solo si usás Sign in with Apple, para autenticarte.</li>
+  </ul>
+  <p>Estos proveedores pueden procesar datos fuera de tu país. Cada uno aplica sus propias medidas de seguridad y políticas de privacidad.</p>
+
+  <h2>4. Cuánto tiempo conservamos los datos</h2>
+  <ul>
+    <li>Conservamos los datos de tu cuenta y de alumno mientras tu cuenta esté activa.</li>
+    <li>Si eliminás tu cuenta (ver sección 6), borramos o anonimizamos tus datos personales, <strong>salvo</strong> aquello que debamos <strong>retener por obligación legal o contable</strong> (por ejemplo, información de <strong>facturación/pagos</strong>), que se conserva por el plazo que exige la normativa contable y fiscal argentina (actualmente hasta <strong>10 años</strong>).</li>
+    <li>El token de push se borra al cerrar sesión, al eliminar la cuenta o cuando el dispositivo deja de estar registrado.</li>
+  </ul>
+
+  <h2>5. Tus derechos</h2>
+  <p>Según la Ley 25.326 (Argentina), podés <strong>acceder</strong>, <strong>rectificar</strong>, <strong>actualizar</strong> y <strong>eliminar</strong> tus datos, y <strong>oponerte</strong> o <strong>limitar</strong> ciertos tratamientos. Podés editar tus datos desde "Perfil → Editar datos" y eliminar tu cuenta desde la App (sección 6). Para cualquier otra solicitud, escribinos a <a href="mailto:tornayjoaquin3@gmail.com">tornayjoaquin3@gmail.com</a>. La Agencia de Acceso a la Información Pública, autoridad de control, atiende denuncias por incumplimiento de la normativa de datos personales.</p>
+
+  <h2 id="eliminar-cuenta">6. Cómo eliminar tu cuenta</h2>
+  <div class="box">
+    <p>Podés eliminar tu cuenta directamente desde la App, sin contactarnos:</p>
+    <p><strong>Perfil → Seguridad → Eliminar cuenta.</strong></p>
+    <p>La eliminación es <strong>permanente e irreversible</strong>. Al confirmarla, se borra tu usuario y tus datos personales (perfil, contacto, token de push e historial de entrenamiento). Por las obligaciones legales de la sección 4, podemos <strong>conservar información de facturación</strong> el tiempo que exija la ley. También podés solicitar la eliminación escribiendo a <a href="mailto:tornayjoaquin3@gmail.com">tornayjoaquin3@gmail.com</a>.</p>
+    <p>Más detalle: <a href="./eliminar-cuenta.html">Eliminación de cuenta y datos</a>.</p>
+  </div>
+
+  <h2>7. Seguridad</h2>
+  <p>Usamos proveedores que aplican cifrado en tránsito y controles de acceso. Las contraseñas se almacenan cifradas por el proveedor de autenticación. Ningún sistema es 100% infalible, pero trabajamos para proteger tu información.</p>
+
+  <h2>8. Menores</h2>
+  <p>La App es para personas socias del gimnasio y <strong>no contiene material restringido a mayores de edad</strong>; puede ser usada por menores. Si sos menor de edad, se requiere el consentimiento de tu madre, padre o tutor para crear la cuenta y tratar tus datos, según lo exige la Ley 25.326. Solo tratamos los datos necesarios para la relación con el gimnasio y no recopilamos datos de menores con fines de publicidad ni de rastreo.</p>
+
+  <h2>9. Cambios en esta Política</h2>
+  <p>Podemos actualizar esta Política. Publicaremos la versión vigente en esta misma URL y actualizaremos la fecha de "Última actualización".</p>
+
+  <h2>10. Contacto</h2>
+  <p>Por consultas sobre privacidad o tus datos: <a href="mailto:tornayjoaquin3@gmail.com">tornayjoaquin3@gmail.com</a> — <strong>Analitic</strong>.</p>
+
+  <footer>Analitic — Política de privacidad. Última actualización: 16/10/2026.</footer>
+</main>
+</body>
+</html>
