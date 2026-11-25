@@ -4,3 +4,4 @@ Política de privacidad y página de eliminación de cuenta de la app **Analitic
 
 - Política: `index.html`
 - Eliminación de cuenta: `eliminar-cuenta.html`
+- Términos del Servicio: `terminos.html` (enlace de términos que pide Google Play para el estado de comerciante)
